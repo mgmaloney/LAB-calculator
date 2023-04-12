@@ -1,0 +1,68 @@
+/* body {
+  background-color: black;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.grid {
+  display: grid;
+  width: 404px;
+  height: 606px;
+  grid-template: repeat(6, 100px) / repeat(4, 100px);
+  gap: 1px;
+  background-color: black;
+}
+
+.grid-item {
+  background-color: lightgray;
+  font-size: 30px;
+}
+
+.symbol {
+  color: white;
+  background-color: goldenrod;
+}
+
+.calculated-value {
+  background-color: black;
+  color: white;
+  grid-area: 1 / 1/ 1 / span 4;
+  justify-self: end;
+  align-self: center;
+  font-size: 52px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.backspace {
+  grid-area: 2 / 3 / span 1;
+}
+
+.clear {
+  grid-area: 2 / 1 / span 1 / span 2;
+}
+
+.multiply {
+  grid-area: 3 / 4 / span 1;
+}
+
+.subtract {
+  grid-area: 4 / 4 / span 1;
+}
+
+.add {
+  grid-area: 5 / 4 / span 1;
+}
+
+.equal {
+  grid-area: 6 / 4 / span 1;
+}
+
+.zero {
+  grid-area: 6 / 1 / span 1 / span 3;
+}
