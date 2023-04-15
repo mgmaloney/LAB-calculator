@@ -2,6 +2,26 @@
   background-color: black;
 } */
 
+.number:hover,
+.backspace:hover,
+.clear:hover {
+  background-color: #ebebeb;
+}
+
+.number:active,
+.backspace:active,
+.clear:active {
+  background-color: #bbbcbe;
+}
+
+.symbol:hover {
+  background-color: #dfb07e;
+}
+
+.symbol:active {
+  background-color: #dd8d37;
+}
+
 .container {
   display: flex;
   justify-content: center;
